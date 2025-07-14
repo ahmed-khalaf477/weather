@@ -144,7 +144,7 @@ console.log(dayName3 );
 async function fire() {
     await getapidata()  
 }
-fire()
+
 
 async function searchcountry() {
   let sear = await fetch (`http://api.weatherapi.com/v1/forecast.json?key=${apikey}&q=${searchinput.value}&days=3`)  
